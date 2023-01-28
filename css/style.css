@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: black;
+font-size: 300%;
+}
+.cor{
+    color: forestgreen;
+}
+img{
+    width: 3%;
+    height: 1%;
+}
+.colorBlue{
+color: blue;
+}
+.colorWhite{
+color: white;
+}
+.colorRed{
+color: red;
+}
+.texts{
+    font-size: 200%;
+}
+.components{
+    width: 5%;
+    height: 10%;
+}
