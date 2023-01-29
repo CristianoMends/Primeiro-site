@@ -12,7 +12,7 @@ img{
     height: 1%;
 }
 .colorBlue{
-color: rgb(6, 6, 112);
+color: rgb(10, 10, 175);
 }
 .colorWhite{
 color: white;
@@ -35,7 +35,8 @@ color: red;
 .div1{
     border-radius: 2%;
     width: 30%;
-    background-color: black
+    background-color: rgba(255, 0, 0, 0.418)
+    
 }
 .div2{
     width: 100%;

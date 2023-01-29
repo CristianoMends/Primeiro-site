@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Minha pagina</title>
+    <title>Agendamento</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css" >
   </head>
-    <body>
-      <h1><span
-      class="colorBlue">Larissa </span><span
-      class="colorWhite">HairStyle </span><span
+    <body style="background-image: url(src/images/background.jpg);background-size: cover;">
+      <h1 style="text-shadow:0.1em 0.1em 0.1em black;"><span
+      class="colorWhite" >Larissa </span><span
+      class="colorBlue">HairStyle </span><span
       class="colorRed">Salon</span>
-      <img src="https://cdn-icons-png.flaticon.com/512/5672/5672465.png" alt="Logo">
       </h1>
-      <div>
-        <h3 class="alignCenter">A mudança que você deseja, está em nossas mãos</h3>
+      <div >
+        <h3 style="text-align: center;color: white; text-shadow:0.1em 0.1em 0.1em black;">A mudança que você deseja, está em nossas mãos</h3>
       </div>
         <br/>
         <br/>
         
         
-        <div class="div1">
+        <div class="div1" >
           <br/>
           <p class="alignCenter"><label class="texts">Criar agendamento</label></p>
           <br/>
@@ -31,7 +30,7 @@
             <input type="email"></p>
           <br/>
           <P class="alignCenter" ><label class="texts">Horario</label>
-            <select class="alignCenter" id="horarios" onchange="time()">              
+            <select class="alignCenter" id="horarios">              
               <option value="Horarios">Horarios Disponiveis</option> </select></p>
 
           <p class="alignCenter"><label class="texts">Data  </label>
@@ -60,6 +59,18 @@
       <br/>
       <br/>
       <br/>
+      <div style="height: 100%;width: 30%; text-align: left;">
+        <form  action="mailto:cristianomendes481@gmail.com" method="post" enctype="text/plain">
+          <label>Email  &emsp;</label>
+          <input type="email" placeholder="Digite seu email" maxlength="35" style="width: 50%;"><br/>
+          <br/>
+          <label>Mensagem</Label><br/>
+          <textarea rows="5" placeholder="Digite sua mensagem"  maxlength="250" style="resize: vertical; width: 50%;"></textarea><br/>
+          <br/>
+          <input type="submit">
+        </form>
+      </div>
+
       <span class="teste" id="image"></span>  
      <script src="js/app.js"></script>
     <a href="https://www.flaticon.com/br/icones-gratis/cabelo" title="cabelo ícones">Cabelo ícones criados por Smashicons - Flaticon</a>
