@@ -6,34 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css" >
   </head>
-  <body>
+    <body>
+      <h1><span
+      class="colorBlue">Larissa </span><span
+      class="colorWhite">HairStyle </span><span
+      class="colorRed">Salon</span>
+      <img src="https://cdn-icons-png.flaticon.com/512/5672/5672465.png" alt="Logo">
+      </h1>
+      <div>
+        <h3 class="alignCenter">A mudança que você deseja, está em nossas mãos</h3>
+      </div>
+        <br/>
+        <br/>
+        
+        
+        <div class="div1">
+          <br/>
+          <p class="alignCenter"><label class="texts">Criar agendamento</label></p>
+          <br/>
+          <p class="alignCenter"><label class="texts">Nome</label>
+            <input type="text"></p>
 
-    <h1><span
-     class="colorBlue">Barber</span><span
-     class="colorWhite">Shop</span><span
-     class="colorRed">Manager</span>
+          <p class="alignCenter"><label class="texts" >Email</label>
+            <input type="email"></p>
+          <br/>
+          <P class="alignCenter" ><label class="texts">Horario</label>
+            <select class="alignCenter" id="horarios" onchange="time()">              
+              <option value="Horarios">Horarios Disponiveis</option> </select></p>
 
-    <img src="https://cdn-icons-png.flaticon.com/512/5672/5672465.png" alt="">
-    </h1>
-    <P>
-      <label class="texts" >Horario</label>
-      <input type="datetime-local">
-      
-    </P>
-    <p>
-      <label class="texts" >Servico</label>
-      <select>
-        <option value="corte">Corte</option>
-        <option value="lavagem">Lavagem</option>
-        <option value="tingimento">Tingimento</option>
-      </select>
+          <p class="alignCenter"><label class="texts">Data  </label>
+            <input type="date"></input></p>
 
-    </p>
-
-    <p>
-      <input class="components" type="button" value="Agendar">
-    </p>
-
-  
-  </body>
+          <p class="alignCenter"><label class="texts" >Serviço</label>
+            <select id="services" onchange="drawImage()">
+              <option id="Servicos">Serviços Disponiveis</option>
+              <option id="corte" value="Corte">Corte</option>
+              <option id="lavagem" value="lavagem">Lavagem</option>
+              <option id="Tingimento" value="tingimento">Tingimento</option>
+              </select>
+              
+          </p>
+          <br/>
+          <br/>
+          <p class="alignCenter">
+            <input class="components" id="onclick" type="button" value="Agendar" onclick="write1();">
+          </p>
+          <br/>
+          <br/>
+        </div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <span class="teste" id="image"></span>  
+     <script src="js/app.js"></script>
+    <a href="https://www.flaticon.com/br/icones-gratis/cabelo" title="cabelo ícones">Cabelo ícones criados por Smashicons - Flaticon</a>
+    </body>
 </html>

@@ -12,7 +12,7 @@ img{
     height: 1%;
 }
 .colorBlue{
-color: blue;
+color: rgb(6, 6, 112);
 }
 .colorWhite{
 color: white;
@@ -21,9 +21,46 @@ color: white;
 color: red;
 }
 .texts{
-    font-size: 200%;
+    font-size: 150%;
+    color: white;
+
 }
 .components{
-    width: 5%;
+    width: 25%;
     height: 10%;
+}
+.alignCenter{
+    text-align: center;
+}
+.div1{
+    border-radius: 2%;
+    width: 30%;
+    background-color: black
+}
+.div2{
+    width: 100%;
+
+}
+
+.alignRigth{
+    text-align: right;
+}
+.imageFormat{
+    animation-duration: 3s;
+    animation-name: slidein;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 7cm;
+    left: 12cm;    
+}
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
 }
