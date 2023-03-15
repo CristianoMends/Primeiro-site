@@ -1,4 +1,4 @@
-<h1 align="center">Larissa HairStyle</h1>
+<h1 align="center">HairStyle</h1>
 
 ## :memo: Descrição
 Website de um salão de cabelos
